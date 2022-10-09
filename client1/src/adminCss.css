@@ -1,0 +1,166 @@
+.navbar2 {
+  float: left;
+  position: fixed;
+  overflow-y: scroll;
+  width: 280px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.imgNav2 {
+  height: 100px;
+}
+
+.list2 {
+  background-color: rgb(168, 156, 180);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.list2 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.list2 ul li {
+  color: burlywood;
+  transition: 0.8s;
+  background: rgb(120, 111, 180);
+}
+a {
+  color: burlywood;
+  transition: 0.8s;
+}
+
+.list2 ul li a:hover {
+  color: darkgrey;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.logout2 {
+  background-color: indianred;
+  width: 80%;
+  border-radius: 20px;
+  padding: 5%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+Form {
+  float: right;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+}
+
+.showUp {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  transform: translate(480px, 150px);
+  background: #ddd;
+  width: 800px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 50px;
+  top: 0px;
+  left: -150px;
+}
+
+.btn {
+  padding: 8px;
+  background-color: rgb(211, 104, 121);
+  outline: none;
+  border: 2px solid rgb(184, 154, 185);
+  transition: 0.2s;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.input {
+  width: 500px;
+  border: 2px solid rgb(184, 154, 18nav5);
+  margin-bottom: 50px;
+  border-radius: 6px;
+  outline: none;
+  padding: 5px 6px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.card {
+  text-align: center;
+
+  padding: 10px;
+
+  width: 300px;
+
+  border-radius: 5px;
+
+  padding: 1em;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+img {
+  height: 300px;
+
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input:focus {
+  border-color: palevioletred;
+  box-shadow: 0 0 8px 0 palevioletred;
+}
+
+.tezz {
+  float: right;
+}
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100px;
+  margin: 100px;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+  background-color: #ddd;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+button {
+  width: 100px;
+}
